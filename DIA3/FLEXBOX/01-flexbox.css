@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+.padre{
+    display: flex;
+    /* width: 600px; */
+    height: 500px;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+    flex-direction: row; 
+    /* justify-content:space-evenly; */
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+    border: 2px solid red;
+
+}
+.padre>div{
+    height: 145px;
+    margin: 5px;
+    background-color: #ccc;
+    
+    /* width: 100px; */
+    /* propiedad por defecto ROW. es decir los elenetos se alinean en una sola linea */
+}
+.caja-1{
+width: 100px;
+}
+.caja-2{
+    width: 100px;
+}
+.caja-3{
+    width: 100px;
+}
+.caja-4{
+    width: 100px;
+    
+}
+.caja-5{
+    width: 100px;
+}
+.caja-6{
+    width: 100px;
+    
+}
